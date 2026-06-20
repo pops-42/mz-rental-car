@@ -743,3 +743,9 @@ background: #b92b27;
   display: block;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .site-logo {
+    width: 240px;
+    max-width: 90%;
+  }
+}
