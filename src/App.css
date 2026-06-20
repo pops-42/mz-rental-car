@@ -181,4 +181,22 @@
     right: 0;
     border-right-color: var(--border);
   }
+  .site-logo {
+  width: 130px;
+  height: auto;
+  display: block;
+  margin: 0 auto 8px;
+  background: rgba(75, 42, 20, 0.75);
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+.header {
+  padding: 25px 20px 20px;
+}
+
+.slogan::before,
+.slogan::after {
+  display: none;
+}
 }

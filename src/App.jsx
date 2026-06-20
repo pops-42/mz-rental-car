@@ -3,6 +3,7 @@ import { supabase } from './supabase'
 import Reservation from './Reservation'
 import Admin from './Admin'
 import CarDetails from './CarDetails'
+import logo from './assets/logo.png'
 export default function App() {
   const [cars, setCars] = useState([])
   const [exchangeRate, setExchangeRate] = useState(278)
@@ -79,15 +80,13 @@ if (page === 'details' && selectedCar) {
 return (
   
     <div>
-      <header className="header">
-        <img
-          className="flag"
-          src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg"
-          alt="Drapeau Algérie"
-        />
-        <h1>MZ Rental Car Alger</h1>
-        <div className="slogan">Votre liberté, notre priorité</div>
-      </header>
+  <header className="header">
+    <img
+      src={logo}
+      alt="MZ Rental Car Alger"
+      className="site-logo"
+    />
+  </header>
 
       <nav className="nav">
         <a

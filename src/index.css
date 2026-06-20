@@ -722,16 +722,24 @@ textarea {
 }
 
 .delete-btn {
-  width: 100%;
-  margin-top: 6px;
-  background: #b92b27;
+width: 100%;
+margin-top: 6px;
+background: #b92b27;
 }
 
 .delete-btn:hover {
   background: #8f1f1b;
 }
+
 @media(max-width:800px) {
   .car-detail {
     grid-template-columns: 1fr;
   }
+}
+
+.site-logo {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
