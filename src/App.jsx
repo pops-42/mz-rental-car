@@ -48,7 +48,7 @@ const [selectedCar, setSelectedCar] = useState(null)
     }
 
     if (carName.includes('Kia')) {
-      return ['🌞 Toit panoramique', '🔥 Sièges chauffants', '🛣 Régulateur', '✨ Confort premium']
+      return ['🌞 Toit panoramique', '⚙ Boîte auto', '🛣 Régulateur', '✨ Confort premium']
     }
 
    return []
@@ -97,7 +97,7 @@ return (
   Accueil
 </a>
         <a
-  href="https://wa.me/213659210893?text=Bonjour%2C%20je%20souhaite%20vous%20contacter%20pour%20une%20location."
+  href="https://wa.me/33686272778?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20pour%20une%20location%20de%20voiture."
   target="_blank"
 >
   Contact
@@ -171,7 +171,7 @@ return (
         <p>Réservation disponible sur WhatsApp 24h/24</p>
         <a
           className="whatsapp-btn"
-          href="https://wa.me/213659210893?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20pour%20une%20location%20de%20voiture."
+          href="https://wa.me/33686272778?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20pour%20une%20location%20de%20voiture."
           target="_blank"
         >
           💬 Contacter sur WhatsApp

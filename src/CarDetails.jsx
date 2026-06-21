@@ -56,7 +56,7 @@ async function getSettings() {
     }
 
     if (car.name.includes('Kia')) {
-      return ['🌞 Toit panoramique', '🔥 Sièges chauffants', '🛣 Régulateur de vitesse', '✨ Confort premium']
+      return ['🌞 Toit panoramique', '⚙ Boîte automatique', '🛣 Régulateur de vitesse', '✨ Confort premium']
     }
 
     return []
@@ -76,7 +76,7 @@ async function getSettings() {
       <nav className="nav">
         <a href="#" onClick={onBack}>Accueil</a>
         <a
-          href="https://wa.me/213659210893?text=Bonjour%2C%20je%20souhaite%20vous%20contacter%20pour%20une%20location."
+          href="https://wa.me/33686272778?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20pour%20une%20location%20de%20voiture."
           target="_blank"
         >
           Contact
@@ -197,7 +197,7 @@ async function getSettings() {
         <p>Contact disponible sur WhatsApp 24h/24</p>
         <a
           className="whatsapp-btn"
-          href={`https://wa.me/213659210893?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20sur%20la%20${encodeURIComponent(car.name)}.`}
+          href="https://wa.me/33686272778?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20pour%20une%20location%20de%20voiture."
           target="_blank"
         >
           💬 Contacter sur WhatsApp

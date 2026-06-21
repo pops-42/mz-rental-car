@@ -292,7 +292,7 @@ const totalDa = total * exchangeRate
       <nav className="nav">
         <a href="#" onClick={onBack}>Accueil</a>
         <a
-          href="https://wa.me/213659210893?text=Bonjour%2C%20je%20souhaite%20vous%20contacter%20pour%20une%20location."
+          href="https://wa.me/33686272778?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20pour%20une%20location%20de%20voiture."
           target="_blank"
         >
           Contact
